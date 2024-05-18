@@ -1,0 +1,96 @@
+main{
+    margin-top: -15px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    background: #35322f;
+    margin-left: 82px;
+    margin-right: 82px;
+    box-shadow: 0px 0px 5px 1px rgb(29, 30, 30);
+}
+div{
+    background: #ffffff;
+    padding-bottom: 10px;
+    padding-right: 20%;
+}
+h1{
+    padding-top: 60px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: lighter;
+}
+section{
+    border-radius: 3px;
+    border: 2px solid #cedce2;
+    background: #e6ecef;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+h2{
+    padding-top: 10px;
+    font-size: 15pt;
+    font-weight: bolder;
+    color: #a2251f;
+}
+p{
+    font-weight: 540;
+    padding-bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+h2, p, table{
+    padding-left: 5px;
+    overflow: auto;
+}
+td, th{
+    border: 2px solid #b3b2b3;
+    text-align: left;
+}
+th{
+    padding: 2px;
+    padding-left: 6px;
+    background-color: #d8d8d8;
+}
+td{
+    padding: 12px;
+    padding-left: 6px;
+    padding-bottom: 1px;
+    position: relative;
+    bottom: 0px;
+}
+input {
+    width: 35px;
+    height: 25px;
+}
+#addRow{
+    margin-top: 20px;
+}
+#result{
+    margin-top: 5px;
+}
+.buttonContainer{
+    gap: 10px;
+    background: #e6ecef;
+    text-align: right;
+    padding-right: 10px;
+}
+#meanButton{
+    padding: 6px 18px;
+}
+#weightedButton{
+    padding: 6px 9px;
+}
+#weightedButton, #meanButton{
+    text-align: right;
+    background-color: #a2251f;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 3px;
+    text-align: center;
+}
+#weightedButton:hover, #meanButton:hover{background-color: #70231f}
+#weightedButton:active, #meanButton:active {background-color: #a2251f;}
