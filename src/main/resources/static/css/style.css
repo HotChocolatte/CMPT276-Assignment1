@@ -66,6 +66,10 @@ input {
     width: 35px;
     height: 25px;
 }
+#tableText{
+    text-align: left;
+    padding-bottom: 10px;
+}
 #addRow{
     margin-top: 20px;
 }

@@ -19,6 +19,9 @@ function genNewRow() {
     var cell4 = row.insertCell(3);
     var cell5 = row.insertCell(4);
 
+    cell1.id = "tableText";
+    cell2.id = "tableText";
+
     // Declare cell 1.
     cell1.innerHTML = "Activity " + numOfRow;
 
