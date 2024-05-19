@@ -19,6 +19,7 @@ function genNewRow() {
     var cell4 = row.insertCell(3);
     var cell5 = row.insertCell(4);
 
+    // Assign tableText ID to first two text cells.
     cell1.id = "tableText";
     cell2.id = "tableText";
 
